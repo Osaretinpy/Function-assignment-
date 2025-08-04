@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Box container for inputs and button */
+.box {
+  border: 2px solid black;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid dimgray;
+  border-radius: 4px;
+  color: dimgray;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: lightcyan;
+  color: white;
+}
+
+/* Result box */
+.result-box {
+  border: 2px solid red;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+}
