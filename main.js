@@ -14,10 +14,11 @@ function addNumbers() {
         document.getElementById('result').textContent = "Please enter valid numbers";
       }
 } 
-
+//this function calls another function
 function call(){
   addNumbers();
 }
+// keyup event
 window.onload = function () {
   document.getElementById('num1').addEventListener('keyup', addNumbers);
   document.getElementById('num2').addEventListener('keyup', addNumbers);
